@@ -77,7 +77,7 @@ async function poll() {
       
       console.log(`posted on sprout: https://sprout.spot/post/${post.post_id}`)
     } else {
-      console.log(list);
+      console.log("no new ones... yet!")
     }
   } catch (e) {
     console.log(e);
