@@ -1,0 +1,16 @@
+{
+  "name": "twitterpost",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "rettiwt-api": "^7.1.4",
+    "sprout.spot": "^0.1.0"
+  }
+}
